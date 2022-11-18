@@ -1,0 +1,17 @@
+package com.library.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "checkout")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Checkout {
+
+}

@@ -1,0 +1,14 @@
+package com.library.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
+
+@Configuration
+public class MyDataRest implements RepositoryRestConfigurer  {
+	
+	private String theAllowedOrigins = "http://localhost;3000";
+	
+	
+	
+
+}
